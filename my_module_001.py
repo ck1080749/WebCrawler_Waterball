@@ -541,6 +541,3 @@ def calTime(timeformat: str, cool3c_link="") -> str:
 def sort(to_sort: list) -> list:
     return sorted(to_sort, key=lambda d: d["time"], reverse=True)
 
-
-def cmptime(time1: str, time2: str) -> bool:
-    pass
